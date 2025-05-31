@@ -43,7 +43,7 @@ if user_choice == options.index(options_random):
 #User Win
 elif (user_choice == 0 and options_random == options[2]) or \
 (user_choice == 1 and options_random == options[0]) or \
-(user_choice == 2 and options_random == options[0]):
+(user_choice == 0 and options_random == options[2]):
     print("You win")
 #Computer win
 else:

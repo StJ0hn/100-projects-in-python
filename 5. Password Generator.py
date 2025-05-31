@@ -33,6 +33,9 @@ for symbol in range(1, symbol_user + 1):
     random_symbols = choice(symbols)
     password += random_symbols
     list_of_choices.append(random_symbols)
+
+shuffle(list_of_choices)
+
 print("You password is: " + password)
 print()
 shuffle(list_of_choices)
