@@ -120,7 +120,7 @@ lifes = 7
 game_over = False
 attempted_letters = []
 while not game_over:
-    print(word)
+
     guess = input("Guess a letter: ").lower()
 
     while guess in attempted_letters:
@@ -150,3 +150,4 @@ while not game_over:
     elif lifes == 0:
         game_over = True
         print("You lost.")
+        print("The word is: " + word)
